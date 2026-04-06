@@ -1,8 +1,0 @@
-# 7. WAP to print all integers upto n that aren’t divisible by 2 and 3.
-print('Program to print all integers upto n that aren’t divisible by 2 and 3.')
-n = int(input("Enter n: "))
-
-
-for i in range(1,n+1,1):
-    if(i%6!=0):
-        print(i,end=' ')
